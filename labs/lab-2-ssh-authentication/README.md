@@ -40,6 +40,7 @@ If both connections work, the configuration is correct.
 ✅ Screenshot
 Below is an example of a correctly configured authorized_keys file:
 Authorized keys example
+docs/images/ssh public keys.png
 
 ✅ Conclusion
 You now have secure, passwordless SSH access from multiple devices.
