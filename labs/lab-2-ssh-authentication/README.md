@@ -1,4 +1,4 @@
-Lab 2 – SSH Authentication with Public Key
+##Lab 2 – SSH Authentication with Public Key
 
 Objective
 Configure passwordless SSH access to the Raspberry Pi from both PC and mobile.
