@@ -1,7 +1,13 @@
 Lab 2 – SSH Authentication with Public Key
+
+
 Objective
+
+
 Configure passwordless SSH access to the Raspberry Pi from both PC and mobile.
 This setup improves security, removes password prompts, and prepares the environment for future labs.
+
+
 Requirements
 • 	Raspberry Pi 5 with Raspberry Pi OS
 • 	SSH enabled on the Raspberry Pi
