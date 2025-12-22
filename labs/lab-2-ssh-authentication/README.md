@@ -1,20 +1,14 @@
 Lab 2 – SSH Authentication with Public Key
-
-
 Objective
-
-
 Configure passwordless SSH access to the Raspberry Pi from both PC and mobile.
 This setup improves security, removes password prompts, and prepares the environment for future labs.
-
-
 Requirements
-• 	Raspberry Pi 5 with Raspberry Pi OS
-• 	SSH enabled on the Raspberry Pi
-• 	PC with SSH client
-• 	Mobile device (Android/iOS)
-• 	Terminus app installed
-• 	Both devices connected to the same network
+- Raspberry Pi 5 with Raspberry Pi OS
+- SSH enabled on the Raspberry Pi
+- PC with SSH client
+- Mobile device (Android/iOS)
+- Terminus app installed
+- Both devices connected to the same network
 Step 1 – Generate SSH Key on PC
 Generate an ED25519 SSH key:
 ssh-keygen -t ed25519
@@ -50,7 +44,8 @@ uptime
 ls -la
 Notes
 This lab confirms that passwordless SSH access works correctly and will be used in later labs for:
-• 	multi-device administration
-• 	Docker network configuration
-• 	ACL and segmentation testing
-• 	secure remote access
+- multi-device administration
+- Docker network configuration
+- ACL and segmentation testing
+- secure remote acces
+
