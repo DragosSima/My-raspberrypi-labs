@@ -11,10 +11,15 @@ Requirements
 - Both devices connected to the same network
 
 Step 1 – Generate SSH Key on PC
+
 Generate an ED25519 SSH key:
+
 ssh-keygen -t ed25519
+
 Press Enter to accept the default path.
+
 The public key will be located at:
+
 ~/.ssh/id_ed25519.pub
 
 Step 2 – Generate SSH Key on Mobile (Terminus)
