@@ -24,6 +24,8 @@ docker network create --subnet=10.30.0.0/24 server_net
 
 Each network provides isolation and allows static IP assignment.
 
+![Docker-network](../../docs/images/docker-network.png)
+
 ## 2.Router Creation
 A router container was created using Ubuntu 24.04 and attached to all three networks with fixed IP addresses:
 
