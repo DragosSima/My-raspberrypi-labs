@@ -44,6 +44,8 @@ Cloudflare generated a Tunnel ID and a credentials file, for example:
 
 (The Tunnel ID above is an example and does not represent real credentials.)
 
+![cloudflare-tunnel](../../docs/images/cloudflare-tunnel.png)
+
 ## 4.Configuring the Tunnel
 
 I created the configuration file:
