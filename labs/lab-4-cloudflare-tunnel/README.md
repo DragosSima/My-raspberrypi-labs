@@ -134,6 +134,8 @@ This website is served from the internal network through a secure Cloudflare Tun
 
 Public URL: https://www.simacyber.com
 
+![corporate-site](../../docs/images/corporate-site.png)
+
 ## 8.Final Testing
   
 Internal Test:
