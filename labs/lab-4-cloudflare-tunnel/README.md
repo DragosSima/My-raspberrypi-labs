@@ -90,6 +90,8 @@ systemctl status cloudflared
 
 If the service is active, the tunnel is running correctly.
 
+![stato-servizio](../../docs/images/stato-servizio.png)
+
 ## 6.DNS Configuration in Cloudflare
   
 Cloudflare automatically created a DNS record for the tunnel:
