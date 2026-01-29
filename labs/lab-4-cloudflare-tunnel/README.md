@@ -102,6 +102,8 @@ Value: something like 12345678-abcd-ef01-2345-abcdef123456.cfargotunnel.com
 
 This record links the domain to the Cloudflare Tunnel without requiring any port forwarding.
 
+![cloudflare-dns-page](../../docs/images/cloudflare-dns-page.png)
+
 ## 7.Deploying the Company Website with Nginx
   
 Inside the container hosting the company web server, I installed Nginx and deployed a simple HTML page.
