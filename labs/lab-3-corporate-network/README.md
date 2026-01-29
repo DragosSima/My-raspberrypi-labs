@@ -133,13 +133,13 @@ Filter table
 
 iptables -L -v
 
-
+![iptables -L -v](../../docs/images/iptables%20-L%20-v.png)
 
 NAT table
 
 iptables -t nat -L -v
 
-
+![iptables -t nat -L -v](../../docs/images/iptables%20-t%20nat%20-L%20-v.png)
 
 ## 7.Connectivity Testing
 
