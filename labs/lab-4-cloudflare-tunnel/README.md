@@ -10,7 +10,7 @@ Cloudflare provided the nameservers to configure at the domain registrar.
 
 After DNS propagation, Cloudflare became the authoritative DNS manager for the domain.
 
-
+![cloudflare-domain](../../docs/images/cloudflare-domain.png)
 
 ## 2.Installing Cloudflared on the Raspberry Pi
  
