@@ -66,7 +66,7 @@ service: http_status:404
 
 Where 172.20.0.10 is the internal IP of the container running the company’s Nginx web server.
 
-![cloudflare-config](../../docs/images/cloudflare-config.png)
+![config.yml](../../docs/images/config.yml.png)
 
 ## 5.Enabling Cloudflared as a System Service
  
