@@ -85,6 +85,8 @@ iptables -A FORWARD -i eth1 -s 10.20.0.0/24 -j DROP tail -f /dev/null
 
 This script ensures correct NAT, forwarding and security between the three networks.
 
+![Router inspect](../../docs/images/router-inspect.png)
+
 ## 3.Server Creation
 
 docker run -d --name server1 --network server_net --ip 10.30.0.2 ubuntu:24.04 tail -f /dev/null
@@ -99,6 +101,8 @@ service nginx start
 
 Internal website available at:
 http://10.30.0.2
+
+![Nginx running](../../docs/images/nginx-running.png)
 
 # (For demonstration purposes, an example public corporate website is: https://www.simacyber.com)
 
@@ -138,6 +142,10 @@ HTTP/1.1 200 OK
 
 Server: nginx/1.24.0 (Ubuntu)
 
+![Curl admin](../../docs/images/curl-admin.png)
+
+![Curl client1](../../docs/images/curl-client1.png)
+
 ## 7.Full Persistence
 
 The environment is persistent due to:
@@ -150,6 +158,7 @@ persistent routes
 
 Nginx auto-start
 
+
 Start the full environment:
 
 
@@ -159,21 +168,8 @@ docker compose up -d
 
 docker ps
 
+![Docker Compose up](../../docs/images/docker-compose-up.png)
+
 The environment is now fully operational and ready for further security testing.
 
-## 8.Screenshots
 
-
-docker-network-list.png
-
-router-inspect.png
-
-nginx-running.png
-
-curl-admin.png
-
-curl-client1.png
-
-iptables-rules.png
-
-docker-compose-up.png
