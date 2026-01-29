@@ -126,7 +126,22 @@ Persistent default route via docker-compose:
 
 command: > sh -c "ip route add default via 10.20.0.3; tail -f /dev/null"
 
-## 6.Connectivity Testing
+## 6.Firewall Verification
+To verify that the router firewall rules are active, the following commands were executed on the host:
+
+Filter table
+
+iptables -L -v
+
+
+
+NAT table
+
+iptables -t nat -L -v
+
+
+
+## 7.Connectivity Testing
 
 docker exec -it admin1 curl -I http://10.30.0.2 
 
@@ -146,7 +161,7 @@ Server: nginx/1.24.0 (Ubuntu)
 
 ![Curl client1](../../docs/images/curl-client1.png)
 
-## 7.Full Persistence
+## 8.Full Persistence
 
 The environment is persistent due to:
 
