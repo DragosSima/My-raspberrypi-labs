@@ -10,6 +10,8 @@ Cloudflare provided the nameservers to configure at the domain registrar.
 
 After DNS propagation, Cloudflare became the authoritative DNS manager for the domain.
 
+
+
 ## 2.Installing Cloudflared on the Raspberry Pi
  
 On the Raspberry Pi, I installed cloudflared, the client responsible for creating and maintaining the tunnel.
@@ -63,6 +65,8 @@ service: http://172.20.0.10:80
 service: http_status:404
 
 Where 172.20.0.10 is the internal IP of the container running the company’s Nginx web server.
+
+![cloudflare-config](../../docs/images/cloudflare-config.png)
 
 ## 5.Enabling Cloudflared as a System Service
  
